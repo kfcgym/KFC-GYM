@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0mm;
+        }
+        #Top-bar{
+            background-color: black;
+            color: white;
+            padding: 1.3cm;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 35px;
+            display: flex;
+            justify-content: center;
+        }
+        h1{
+            display: flex;
+            text-align: center;
+        }
+        nav{
+            background-color: grey;
+            
+        }
+        ul{
+            padding: 1mm;
+            text-align: center;
+        }
+        li{
+            display: inline;
+            color: white;
+            padding: 15px;
+            font-size: 22px;
+        }
+
+    
+        /* Main system */
+
+        #Main-image{
+           width: 100%;
+           height: auto;
+           
+        }
+        #transformations{
+            display: flex;
+            background-color: rgb(255 0 0 / 29%);
+            padding-bottom: 24px;
+           
+        }
+        .BOX{
+            display: inline;
+            padding: 16px;
+            width: 33%;
+            overflow: hidden;
+        }
+        img{
+            width: 100%;
+            height: auto;
+        }
+        h2{
+            text-align: center;
+            font-size: 26px;
+            font-family: fantasy;
+            font-weight: 500;
+            
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+        color: black;
+        }
+        #Map{
+            width: 50%;
+            height: auto;
+            padding: 18px;
+            box-shadow: 10px 10px 5px grey;
+        }
+        #Butt{
+            text-align: center;
+            padding: 1cm;
+            background-color: rgb(255 0 0 / 29%);
+            
+            
+        }
+        button{
+            color: black;
+            background-color: black;
+            padding: 13px;
+            font-size: 18px;
+            border: none;
+            border-radius: 20%;
+        }
+        footer{
+            background-color: black;
+            color: white;
+        }
+        table , th , td{
+            border: black 4px solid;
+            border-collapse: collapse;
+            padding: 14px;
+            margin: auto;
+        }
+
+
+    </style>
+</head>
+<body>
+    <head>
+        <div id="Top-bar">
+            <h1>KFC GYM</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="https://forms.gle/RnvUYyLp12vgsbaG8">Join</a></li>
+            </ul>
+        </nav>
+    </head>
+       
+
+    <main>
+
+        <div style="background-color: rgb(255 0 0 / 29%);">
+            <img id="Main-image" src="Images/Main-image.jpeg" alt="">
+        </div>
+           <h2 style="background-color: rgb(255 0 0 / 29%); padding-top: 24px;">Transformations</h2>
+        <div id="transformations">
+            <div class="BOX" ><img src="Images/Gagan.jpg" alt=""></div>
+            <div class="BOX" ><img src="Images/Pratap.jpg" alt=""></div>
+            <div class="BOX" ><img src="Images/Vijay.jpg" alt=""></div>
+        </div>
+        <h2 style="background-color: rgb(128 128 128 / 12%);padding: 1cm;"> Reach now</h2>
+        <div style="text-align: center; background-color: rgb(128 128 128 / 12%); padding-bottom: 40px; ">
+            <a href="https://www.google.com/maps/place/Kfc+gym/@31.5805971,76.9577986,17z/data=!3m1!4b1!4m5!3m4!1s0x39051bfd37286f43:0x9ed8cd40252bbb6f!8m2!3d31.5805925!4d76.9599873"><img id="Map" src="Images/Map.png"  alt=""></a>
+            <h3 style="padding-top: 7px;">Call: 82196 35007</h3>
+        </div>
+
+        <div style="background-color:  rgb(255 0 0 / 29%); padding: 1cm;">
+            <h2>Timming</h2>
+          <table>
+                    <tr>
+                     <th>Morning</th> 
+                     <th>Evening</th>
+                    </tr>
+                    <tr>
+                        <td>5:30 - 9:00 a.m.</td>
+                        <td>4:30 - 8:00 p.m.</td>
+                    </tr>
+            </table>
+             
+        </div>
+           
+        <div style="background-color: rgb(128 128 128 / 12%); padding: 1cm;">
+            <h2>Fee structure</h2>
+          <table>
+                    <tr>
+                     <th>Admission fees</th> 
+                     <th>Monthly fess</th>
+                    </tr>
+                    <tr>
+                        <td>Rs. 999</td>
+                        <td>Rs. 799</td>
+                    </tr>
+            </table>
+             
+        </div>
+        <div id="Butt">
+            <button> 
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeI-n5TeMeFdyWwW7YzuVvV-2_5Gv1gxlbIfIJUzqyzMnY-OA/viewform">
+                      Join now
+                </a>
+            </button>
+        </div>
+        
+
+    </main>
+    <footer>&copy; ~ All rights reserved</footer>
+
+</body>
+</html>
